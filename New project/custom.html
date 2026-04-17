@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>House of Styles | Custom Studio</title>
+    <meta
+      name="description"
+      content="Choose custom garment, occasion, fit, and budget options in the House of Styles Custom Studio."
+    />
+    <meta name="theme-color" content="#241816" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <a href="index.html" class="brand">
+          <span class="brand-mark">HT</span>
+          <span>
+            <strong>House of Styles</strong>
+            <small>VIP Fashion Atelier</small>
+          </span>
+        </a>
+
+        <nav class="main-nav">
+          <a href="index.html#shop">Shop</a>
+          <a href="vip.html">VIP Club</a>
+          <a href="custom.html">Custom Studio</a>
+          <a href="index.html#experience">Experience</a>
+        </nav>
+
+        <div class="topbar-actions">
+          <a class="secondary-btn top-login-btn" href="index.html">Back to Store</a>
+        </div>
+      </header>
+
+      <main class="vip-page">
+        <section class="vip-hero">
+          <div class="vip-hero-copy">
+            <p class="eyebrow">Custom Studio</p>
+            <h1>Build your custom outfit by choosing what fits your style and needs.</h1>
+            <p class="hero-text">
+              Pick the kind of garment, the occasion, the fit, and your budget. We use those choices
+              to shape a more personal stitching experience.
+            </p>
+          </div>
+
+          <div class="vip-hero-card">
+            <span class="tag dark">Made For You</span>
+            <h2>Custom looks for formal, wedding, party, and casual styling.</h2>
+            <p>Simple selection first, then refinement and stitching support after that.</p>
+          </div>
+        </section>
+
+        <section class="custom-section">
+          <div class="section-heading inline">
+            <div>
+              <p class="eyebrow">Select Options</p>
+              <h2>Create your custom style direction</h2>
+              <p class="hero-text custom-section-note">
+                Open any option to explore multiple styles with image cards before you choose.
+              </p>
+            </div>
+          </div>
+
+          <div class="custom-grid">
+            <div class="custom-form custom-picker-panel">
+              <div class="custom-picker-group">
+                <p class="filter-label">Pick a garment</p>
+                <div class="custom-visual-grid">
+                  <button class="custom-option custom-visual-card active" type="button" data-custom-group="garment" data-custom-value="Blazer" data-custom-open="true">
+                    <span class="custom-visual custom-visual-blazer"></span>
+                    <span class="custom-visual-copy">
+                      <strong>Blazer</strong>
+                      <small>Formal tailoring and sharp structure</small>
+                    </span>
+                  </button>
+                  <button class="custom-option custom-visual-card" type="button" data-custom-group="garment" data-custom-value="Sherwani" data-custom-open="true">
+                    <span class="custom-visual custom-visual-sherwani"></span>
+                    <span class="custom-visual-copy">
+                      <strong>Sherwani</strong>
+                      <small>Regal celebration and groom styling</small>
+                    </span>
+                  </button>
+                  <button class="custom-option custom-visual-card" type="button" data-custom-group="garment" data-custom-value="Lehenga" data-custom-open="true">
+                    <span class="custom-visual custom-visual-lehenga"></span>
+                    <span class="custom-visual-copy">
+                      <strong>Lehenga</strong>
+                      <small>Wedding-ready volume and elegance</small>
+                    </span>
+                  </button>
+                  <button class="custom-option custom-visual-card" type="button" data-custom-group="garment" data-custom-value="Dress" data-custom-open="true">
+                    <span class="custom-visual custom-visual-dress"></span>
+                    <span class="custom-visual-copy">
+                      <strong>Dress</strong>
+                      <small>Modern drape and evening movement</small>
+                    </span>
+                  </button>
+                </div>
+              </div>
+
+              <div class="custom-picker-group">
+                <p class="filter-label">Choose the occasion</p>
+                <div class="custom-visual-grid">
+                  <button class="custom-option custom-visual-card active" type="button" data-custom-group="occasion" data-custom-value="Wedding" data-custom-open="true">
+                    <span class="custom-visual custom-visual-wedding"></span>
+                    <span class="custom-visual-copy">
+                      <strong>Wedding</strong>
+                      <small>Grand details and statement dressing</small>
+                    </span>
+                  </button>
+                  <button class="custom-option custom-visual-card" type="button" data-custom-group="occasion" data-custom-value="Formal" data-custom-open="true">
+                    <span class="custom-visual custom-visual-formal"></span>
+                    <span class="custom-visual-copy">
+                      <strong>Formal</strong>
+                      <small>Professional polish and clean lines</small>
+                    </span>
+                  </button>
+                  <button class="custom-option custom-visual-card" type="button" data-custom-group="occasion" data-custom-value="Party" data-custom-open="true">
+                    <span class="custom-visual custom-visual-party"></span>
+                    <span class="custom-visual-copy">
+                      <strong>Party</strong>
+                      <small>Bold texture and evening energy</small>
+                    </span>
+                  </button>
+                  <button class="custom-option custom-visual-card" type="button" data-custom-group="occasion" data-custom-value="Casual" data-custom-open="true">
+                    <span class="custom-visual custom-visual-casual"></span>
+                    <span class="custom-visual-copy">
+                      <strong>Casual</strong>
+                      <small>Easy comfort with styled ease</small>
+                    </span>
+                  </button>
+                </div>
+              </div>
+
+              <div class="custom-picker-group">
+                <p class="filter-label">Select your fit</p>
+                <div class="custom-option-grid">
+                  <button class="custom-option active" type="button" data-custom-group="fit" data-custom-value="Slim Fit" data-custom-open="true">Slim Fit</button>
+                  <button class="custom-option" type="button" data-custom-group="fit" data-custom-value="Classic Fit" data-custom-open="true">Classic Fit</button>
+                  <button class="custom-option" type="button" data-custom-group="fit" data-custom-value="Relaxed Fit" data-custom-open="true">Relaxed Fit</button>
+                  <button class="custom-option" type="button" data-custom-group="fit" data-custom-value="Need Guidance" data-custom-open="true">Need Guidance</button>
+                </div>
+              </div>
+
+              <div class="custom-picker-group">
+                <p class="filter-label">Pick your budget</p>
+                <div class="custom-option-grid">
+                  <button class="custom-option active" type="button" data-custom-group="budget" data-custom-value="Rs 3000 - Rs 5000" data-custom-open="true">Rs 3000 - Rs 5000</button>
+                  <button class="custom-option" type="button" data-custom-group="budget" data-custom-value="Rs 5000 - Rs 10000" data-custom-open="true">Rs 5000 - Rs 10000</button>
+                  <button class="custom-option" type="button" data-custom-group="budget" data-custom-value="Rs 10000 - Rs 25000" data-custom-open="true">Rs 10000 - Rs 25000</button>
+                  <button class="custom-option" type="button" data-custom-group="budget" data-custom-value="Rs 25000+" data-custom-open="true">Rs 25000+</button>
+                </div>
+              </div>
+
+              <button type="button" class="primary-btn full" id="saveCustomStudioButton">Save My Custom Style</button>
+              <p class="form-note" id="customMessage">Choose your options and save your custom style preferences.</p>
+            </div>
+
+            <div class="custom-aside">
+              <article class="custom-summary-card">
+                <p class="eyebrow">Your Selection</p>
+                <div class="custom-summary-list">
+                  <div><span>Garment</span><strong id="customSummaryGarment">Blazer</strong></div>
+                  <div><span>Occasion</span><strong id="customSummaryOccasion">Wedding</strong></div>
+                  <div><span>Fit</span><strong id="customSummaryFit">Slim Fit</strong></div>
+                  <div><span>Budget</span><strong id="customSummaryBudget">Rs 3000 - Rs 5000</strong></div>
+                </div>
+              </article>
+              <article class="process-card">
+                <span class="step">01</span>
+                <h3>Pick your options</h3>
+                <p>Choose the garment, occasion, fit, and budget that match your needs.</p>
+              </article>
+              <article class="process-card">
+                <span class="step">02</span>
+                <h3>Studio review</h3>
+                <p>We use your selected options to understand the kind of outfit you want us to craft.</p>
+              </article>
+              <article class="process-card">
+                <span class="step">03</span>
+                <h3>Refine and stitch</h3>
+                <p>Once your picks are saved, we can guide you into the next tailoring and delivery steps.</p>
+              </article>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="custom.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
